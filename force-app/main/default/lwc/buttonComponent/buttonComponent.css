@@ -1,0 +1,19 @@
+.actionsButton::part(button):active {
+  animation: rotate 0.4s;
+}
+
+svg {
+  color: red;
+  animation: rotate 0.4s;
+}
+
+.actionsButton button {
+  color: red;
+  animation: rotate 0.4s;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

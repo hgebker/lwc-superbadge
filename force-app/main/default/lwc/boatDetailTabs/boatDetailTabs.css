@@ -1,0 +1,13 @@
+.no-boat-height {
+  height: 3rem;
+}
+
+.actionsButton:active svg {
+  animation: rotate 0.4s;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

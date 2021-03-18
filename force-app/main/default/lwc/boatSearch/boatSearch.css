@@ -1,0 +1,18 @@
+button:active svg {
+  animation: rotate 0.4s;
+}
+
+svg {
+  color: red;
+  animation: rotate 0.4s;
+}
+
+.actionsButton {
+  background-color: blue;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
